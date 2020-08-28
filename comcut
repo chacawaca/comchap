@@ -119,7 +119,7 @@ if [[ ! -z "$workdir" ]]; then
     */)
       ;;
     *)
-      comskipoutput=\"--output="$workdir"\"
+      comskipoutput=--output="$workdir"
       workdir="$workdir/"
       ;;
   esac
